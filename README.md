@@ -25,7 +25,7 @@
 | 70 | `爬楼梯` |  JavaScript | Easy |
 | 83 | `删除排序链表中的重复元素` |  JavaScript | Easy |
 | 88 | `合并两个有序数组` |  JavaScript | Easy |
-| 100 | `相同的树` |  JavaScript | Easy |
+| 100 | `相同的树` |  JavaScript | Easy |
 | 121 | `买卖股票的最佳时机` |  JavaScript | Easy |
 | 122 | `买卖股票的最佳时机II` |  JavaScript | Easy |	
 | 125 | `验证回文串` |  JavaScript | Easy |
