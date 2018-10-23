@@ -1,0 +1,44 @@
+// 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+
+// 输入: 1->1->2
+// 输出: 1->2
+
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+// 两个两个的条，如果 current.next.val === current.next.next.val （那就是current.next 为 current.next.next）即使这时候有连着几个重复的，都不怕\
+// 因为while重新把bool置为true，重新开始
+var deleteDuplicates = function(head) {
+    if(head == null) {
+        return null;
+    }
+    if(head.next == null) {
+        return head;
+    }
+    let bool = true;
+    let current = head;
+    while(current.next != null) {
+        bool = true;
+        if(current.val == current.next.val) {
+            if(current.next.next != null) {
+                if(current.next.val === current.next.next.val) {
+                    bool = false;
+                }
+                current.next.val = current.next.next.val
+                current.next = current.next.next
+            } else {                        // 相等， 2 = 2 且 最后一个2 的next是空，进入else循环，这时候next应该为null
+                current.next = null;        // 解决 1 -> 2 -> 2的情况
+                break;
+            }
+        }
+        if(bool) {
+            current = current.next;
+        }
+    }
+    return head;
+};
+
