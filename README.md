@@ -39,8 +39,12 @@
 | 191 | `位1的个数` |  JavaScript | Easy |	
 | 198 | `打家劫舍` |  JavaScript | Easy |
 | 203 | `移除链表元素` |  JavaScript | Easy |
+| 234 | `回文链表` |  JavaScript | Easy |
 | 204 | `计数质数` |  JavaScript | Easy |
 | 205 | `同构字符串` |  JavaScript | Easy |
 | 206 | `反转链表` |  JavaScript | Easy |
 | 217 | `存在重复元素` |  JavaScript | Easy |
 | 268 | `缺失数字` |  JavaScript | Easy |
+| 283 | `移动零` |  JavaScript | Easy |
+| 617 | `合并二叉树` |  JavaScript | Easy |
+| 771 | `宝石与石头` |  JavaScript | Easy |
