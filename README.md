@@ -46,5 +46,6 @@
 | 217 | `存在重复元素` |  JavaScript | Easy |
 | 268 | `缺失数字` |  JavaScript | Easy |
 | 283 | `移动零` |  JavaScript | Easy |
+| 448 | `找到所有数组中消失的数字` |  JavaScript | Easy |
 | 617 | `合并二叉树` |  JavaScript | Easy |
 | 771 | `宝石与石头` |  JavaScript | Easy |
