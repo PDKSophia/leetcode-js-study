@@ -7,36 +7,38 @@
 // 解释: 小于 10 的质数一共有 4 个, 它们是 2, 3, 5, 7 。
 
 var countPrimes = function(n) {
-    var count = 0;
-    var arr = []
-    for(let i = 2; i < n; i++) {   
-        if(isPrime(i)) {
-            arr.push(i)
-            count++;
-        }
+  var count = 0
+  var arr = []
+  for (let i = 2; i < n; i++) {
+    if (isPrime(i)) {
+      arr.push(i)
+      count++
     }
-    return count;
-};
+  }
+  return count
+}
 var isPrime = function(num) {
-    if(typeof num != 'number' || num < 2) {    // 如果不是number类型并且小于2
-        return false;
-    }
+  if (typeof num != 'number' || num < 2) {
+    // 如果不是number类型并且小于2
+    return false
+  }
 
-    if(num === 2) {
-        return true;
-    } else if(num % 2 === 0) {
-        return false;       // 偶数
-    } 
-    var squareRoot = Math.sqrt(num);
-    for(let i = 3; i <= squareRoot; i+=2) { //因为2已经验证过，所以从3开始；且已经排除偶数，所以每次加2
-        if(num%i === 0) {
-            return false;
-        }
+  if (num === 2) {
+    return true
+  } else if (num % 2 === 0) {
+    return false // 偶数
+  }
+  var squareRoot = Math.sqrt(num)
+  for (let i = 3; i <= squareRoot; i += 2) {
+    //因为2已经验证过，所以从3开始；且已经排除偶数，所以每次加2
+    if (num % i === 0) {
+      return false
     }
+  }
 
-    return true;
+  return true
 }
 
-let n = 10; 
-let count = countPrimes(n);
-console.log(count);
+let n = 10
+let count = countPrimes(n)
+console.log(count)
