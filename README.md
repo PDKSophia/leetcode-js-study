@@ -52,7 +52,9 @@
 | 448 |  `找到所有数组中消失的数字`  | JavaScript |    Easy    |
 | 498 |         `对角线遍历`         | JavaScript |   Medium   |
 | 561 |          `数组拆分`          | JavaScript |    Easy    |
+| 581 |     `最短无序连续子数组`     | JavaScript |    Easy    |
 | 617 |         `合并二叉树`         | JavaScript |    Easy    |
+| 622 |        `设计循环队列`        | JavaScript |    Easy    |
 | 724 |     `寻找数组的中间索引`     | JavaScript |    Easy    |
 | 747 | `至少是其他数字两倍的最大数` | JavaScript |    Easy    |
 | 771 |         `宝石与石头`         | JavaScript |    Easy    |
