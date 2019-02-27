@@ -35,6 +35,7 @@
 | 141 |          `环形链表`          | JavaScript |    Easy    |
 | 155 |           `最小栈`           | JavaScript |    Easy    |
 | 160 |          `相交链表`          | JavaScript |    Easy    |
+| 167 |          `两数之和`          | JavaScript |    Easy    |
 | 189 |          `旋转数组`          | JavaScript |    Easy    |
 | 190 |        `颠倒二进制位`        | JavaScript |    Easy    |
 | 191 |         `位1的个数`          | JavaScript |    Easy    |
@@ -50,6 +51,7 @@
 | 344 |         `反转字符串`         | JavaScript |    Easy    |
 | 448 |  `找到所有数组中消失的数字`  | JavaScript |    Easy    |
 | 498 |         `对角线遍历`         | JavaScript |   Medium   |
+| 561 |          `数组拆分`          | JavaScript |    Easy    |
 | 617 |         `合并二叉树`         | JavaScript |    Easy    |
 | 724 |     `寻找数组的中间索引`     | JavaScript |    Easy    |
 | 747 | `至少是其他数字两倍的最大数` | JavaScript |    Easy    |

@@ -1,18 +1,17 @@
 /**
- * @param {number[]} nums
- * @return {number}
+ * @param {number[]} numbers
+ * @param {number} target
+ * @return {number[]}
  */
-var removeDuplicates = function(nums) {
-  var flag = 0
-  for (let i = 1; i < nums.length; i++) {
-    if (nums[i] !== nums[i - 1]) {
-      flag++
-      console.log(flag)
-      nums[flag] = nums[i]
+var twoSum = function(numbers, target) {
+  var arr = []
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] + numbers[i + 1] === target) {
+      arr.push(i + 1)
+      arr.push(i + 2)
     }
   }
-  console.log(nums)
-  return flag + 1
+  return arr
 }
 
-console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))
+console.log(twoSum([2, 7, 11, 15], 17))
